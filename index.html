@@ -1,83 +1,379 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIENDA ANDRES DIAZ</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIAN - Dirección de Impuestos y Aduanas Nacionales</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-
-<h2>Bienvenido a mi tienda de implementación deportiva</h2>
-
-  <div class="contenedor">
-    <section class="productos">
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/Kit de pesas.jpg"></div>
-        <div class="titulo"><h3>Kit De Pesas Ejercicio</h3></div>
-        <div class="precio-original">$349.900</div>
-        <div class="precio-descuento">$109.045</div>
-        <div class="descuento">68% OFF</div>
-        <div class="cuotas">3 cuotas de $36.348 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/kit pesas 2.jpg"></div>
-        <div class="titulo"><h3>Kit De Pesas Ajustables</h3></div>
-        <div class="precio-original">$349.900</div>
-        <div class="precio-descuento">$114.300</div>
-        <div class="descuento">67% OFF</div>
-        <div class="cuotas">3 cuotas de $38.100 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/pesas3.png"></div>
-        <div class="titulo"><h3>Pesas Mancuernas Hexagonales</h3></div>
-        <div class="precio-original">$169.900</div>
-        <div class="precio-descuento">$130.900</div>
-        <div class="descuento">22% OFF</div>
-        <div class="cuotas">3 cuotas de $43.633 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/pesa4.png"></div>
-        <div class="titulo"><h3>Kit De Pesas Convertible</h3></div>
-        <div class="precio-original">$188.900</div>
-        <div class="precio-descuento">$141.990</div>
-        <div class="descuento">24% OFF</div>
-        <div class="cuotas">3 cuotas de $47.330 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/hexagonales.png"></div>
-        <div class="titulo"><h3>Kit Magnux Mancuernas</h3></div>
-        <div class="precio-original">$279.900</div>
-        <div class="precio-descuento">$127.900</div>
-        <div class="descuento">54% OFF</div>
-        <div class="cuotas">3 cuotas de $42.633 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-      <div class="tarjeta">
-        <div class="imagen"><img src="img/convertibles.png"></div>
-        <div class="titulo"><h3>Kit Pesas 20Kg Set</h3></div>
-        <div class="precio-original">$363.900</div>
-        <div class="precio-descuento">$174.900</div>
-        <div class="descuento">51% OFF</div>
-        <div class="cuotas">3 cuotas de $58.300 sin interés</div>
-        <div class="envio">🚚 Envío gratis</div>
-      </div>
-
-    </section>
+  <!-- Barra GOV.CO -->
+  <div class="gov-bar">
+    <div class="gov-left">
+      <img src="https://www.gov.co/favicon.ico" alt="Logo GOV.CO">
+      GOV.CO
+    </div>
+    <div class="gov-right">
+      Dirección de Impuestos y Aduanas Nacionales
+    </div>
   </div>
- <footer class="footer">
-    <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
-  </footer>
+  <!-- Encabezado -->
+  <header class="header">
+    <img src="img/Escudo_Colombia.png" alt="DIAN Logo" class="logo">
+    <img src="img/Banner-Landing-Renta2024.jpg" alt="DIAN Banner" class="banner">
+  </header>
 
+  <!-- Contenido principal -->
+  <main>
+    <section class="zona-gris">
+      <div class="container grid-layout">
+        <!-- PORTALES (columna izquierda) -->
+        <div class="portales">
+          <h2>Portales</h2>
+          <p class="sub">Nuestros portales web</p>
+
+          <div class="portal-card verde">
+            <i class="fa-solid fa-laptop-code icono"></i>
+            <div class="contenido">
+              <h3>Transaccional</h3>
+              <ul>
+                <li>Usuario Registrado</li>
+                <li>Usuario Nuevo</li>
+                <li>Servicios Tributarios y Cambiarios</li>
+                <li>Usuarios no registrados diligenciar formularios</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="portal-card verde">
+            <i class="fa-solid fa-globe icono"></i>
+            <div class="contenido">
+              <h3>Sitio web institucional</h3>
+              <p>Portal Institucional DIAN</p>
+            </div>
+          </div>
+
+          <div class="portal-card verde">
+            <i class="fa-solid fa-book icono"></i>
+            <div class="contenido">
+              <h3>Normograma DIAN</h3>
+              <p>Normativa, doctrina y jurisprudencia en materia tributaria y aduanera.</p>
+            </div>
+          </div>
+
+          <div class="portal-card verde">
+            <i class="fa-solid fa-university icono"></i>
+            <div class="contenido">
+              <h3>Transparencia y acceso a la información</h3>
+              <p>Estructura orgánica, talento humano, planeación y presupuesto.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AYUDA + TEMAS (columna derecha) -->
+        <div class="ayuda">
+          <h2>Cómo podemos ayudarle</h2>
+          <p class="sub">Acceso directo a nuestros diferentes servicios</p>
+
+          <div class="ayuda-grid">
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                <h3>Calendarios</h3>
+              </div>
+              <div class="line"></div>
+              <ul>
+                <li>Tributarios</li>
+                <li>Cambiarios</li>
+              </ul>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <h3>Agendamiento de citas</h3>
+              </div>
+              <div class="line"></div>
+              <p>Sistema para agendar, modificar o cancelar citas.</p>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-bell"></i></div>
+                <h3>Notificaciones</h3>
+              </div>
+              <div class="line"></div>
+              <ul>
+                <li>Verificación de actos administrativos</li>
+                <li>Registro público de notificaciones electrónicas</li>
+              </ul>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                <h3>Verificación de correos</h3>
+              </div>
+              <div class="line"></div>
+              <p>Valide autenticidad de correos DIAN mediante QR.</p>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-comment-dots"></i></div>
+                <h3>PQSR y denuncias</h3>
+              </div>
+              <div class="line"></div>
+              <p>Quejas, reclamos, sugerencias, glosario y normatividad.</p>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <h3>Contáctanos</h3>
+              </div>
+              <div class="line"></div>
+              <p>Canales de atención habilitados por la entidad.</p>
+            </div>
+
+            <div class="ayuda-card">
+              <div class="icon-title">
+                <div class="icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <h3>Facilidades de pago</h3>
+              </div>
+              <div class="line"></div>
+              <p>Póngase al día con sus obligaciones tributarias.</p>
+            </div>
+          </div>
+
+          <!-- 🔵 Temas de interés -->
+          <div class="temas-interes">
+            <h2>Temas de interés</h2>
+            <div class="temas-grid">
+              <div class="tema">
+                <h3><i class="fa-solid fa-file-invoice"></i> Factura Electrónica</h3>
+                <div class="line"></div> 
+                <ul>
+                  <li>Micrositio</li>
+                  <li>Habilitación</li>
+                  <li>Facturando Electrónicamente</li>
+                </ul>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-id-card"></i> RUT</h3>
+                <div class="line"></div> 
+                <ul>
+                  <li>Micrositio</li>
+                  <li>Inscripción virtual RUT</li>
+                  <li>Trámites y servicios</li>
+                </ul>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-scale-balanced"></i> RST</h3>
+                <div class="line"></div> 
+                <ul><li>Régimen simple de tributación</li></ul>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-network-wired"></i> OEA</h3>
+                <div class="line"></div> 
+                <ul><li>Operador Económico Autorizado</li></ul>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-clipboard-check"></i> Trámites y servicios</h3>
+                <div class="line"></div> 
+                <p>Normativa, procedimientos, costos, formularios y glosario.</p>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-signature"></i> Firma Electrónica</h3>
+                <div class="line"></div> 
+                <ul>
+                  <li>Generar Firma Electrónica</li>
+                  <li>Cuenta de Usuario y Firma Electrónica</li>
+                </ul>
+              </div>
+              <div class="tema">
+                <h3><i class="fa-solid fa-users"></i> Grandes Contribuyentes</h3>
+                <div class="line"></div> 
+                <ul><li>Micrositio</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="zona-blanca">
+      <div class="container servicios-ciudadania">
+        <h2>Servicios a la ciudadanía</h2>
+        <div class="line"></div> 
+        <div class="servicios-grid">
+          <div class="servicio-columna">
+            <h3>Servicios Aduaneros</h3>
+            <ul>
+              <li>Exportaciones</li>
+              <li>Importación Temporal de Medios de Transporte de Turista.</li>
+              <li>Certificado de Origen Digital</li>
+              <li>Carga Importaciones</li>
+              <li>Tránsito Aduanero</li>
+              <li>Importaciones</li>
+              <li>Consulta Arancel</li>
+              <li>Tablas Paramétricas</li>
+              <li>Consulta de Consumo contingentes arancelarios</li>
+              <li>Consulta RUT</li>
+              <li>Recuperar Contraseña</li>
+            </ul>
+          </div>
+
+          <div class="servicio-columna">
+            <h3>Servicios tributarios</h3>
+            <ul>
+              <li>Consulta Estado RUT</li>
+              <li>Recuperación Contraseña</li>
+              <li>Consulta de Inconsistencias</li>
+              <li>Radicación electrónica de recursos de reconsideración</li>
+              <li>Solicitud devolución y/o compensación</li>
+              <li>Actividad Económica</li>
+              <li>Usuarios no registrados diligenciar formularios</li>
+              <li>Verificación de correos DIAN</li>
+              <li>Planeación</li>
+              <li>RUT - Definir tipo de inscripción</li>
+            </ul>
+          </div>
+
+          <div class="servicio-columna">
+            <h3>Prevalidadores aduaneros</h3>
+            <ul>
+              <li>Certificado al proveedor</li>
+              <li>Certificado de Producción PROFIA V2 – 2023</li>
+              <li>Certificado de Producción PROFIA - 2023</li>
+              <li>Certificado de Producción PROFIA</li>
+              <li>Contingencia Carga (Versión optimizada)</li>
+              <li>Cuadro Insumo Producto PROFIA</li>
+              <li>Declaración de Exportación</li>
+              <li>Hojas 2 formularios 520 y 540</li>
+              <li>Importación Carga (Versión optimizada)</li>
+              <li>Registro Aduanero</li>
+              <li>Salida de mercancías</li>
+              <li>Hojas 2 formularios 520 y 540 (2022)</li>
+            </ul>
+          </div>
+
+          <div class="servicio-columna">
+            <h3>Prevalidadores tributarios</h3>
+            <ul>
+              <li>Información Tributaria</li>
+              <li>Descarga Programa Ayuda Renta 2024</li>
+              <li>Descarga Programa Ayuda Renta 2023</li>
+              <li>Descarga Programa Ayuda Renta 2022</li>
+              <li>Descarga Programa Ayuda Renta 2021</li>
+              <li>Descarga Programa Ayuda Renta 2020</li>
+              <li>Descarga Programa Ayuda Renta 2019</li>
+              <li>Reporte Conciliación Fiscal Año - gravable 2023</li>
+              <li>Reporte Conciliación Fiscal Año - gravable 2022</li>
+              <li>Reporte Conciliación Fiscal Año - gravable 2021</li>
+              <li>Entidades Financieras</li>
+              <li>Factura electrónica</li>
+              <li>Fiduciarios y Pólizas</li>
+              <li>Impuesto Nacional a la Gasolina y ACPM</li>
+              <li>Información de Relevancia Tributaria</li>
+              <li>Información Usuarios de Entidades Públicas o Privadas</li>
+              <li>Información Ventas con Exención de IVA</li>
+              <li>Precios de Transferencia</li>
+              <li>Registro Único de Beneficiarios Finales - RUB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prevalidadores -->
+    <section class="zona-blanca">
+      <div class="container prevalidadores">
+        <h2>Prevalidadores</h2>
+        <div class="prevalidadores-grid">
+          <div class="columna">
+            <h3>Prevalidadores Cambios</h3>
+            <ul>
+              <li>Información Cambiaria a partir del cuarto trimestre de 2023</li>
+              <li>Información Cambiaria años 2022, segundo trimestre - a 2023, tercer trimestre</li>
+              <li>Información Cambiaria</li>
+            </ul>
+          </div>
+          <div class="columna">
+            <h3>Prevalidadores Min Cultura</h3>
+            <ul>
+              <li>Contribución Parafiscal y Retenciones</li>
+            </ul>
+          </div>
+          <div class="columna">
+            <h3>Prevalidadores Régimen Tributario Especial</h3>
+            <ul>
+              <li>Régimen Tributario Especial</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+ <footer class="gov-footer">
+  <div class="footer-container">
+
+    <!-- Columna izquierda -->
+    <div class="footer-column left">
+      <div class="gov-logo">
+        <img src="img/logo_header.png" alt="Logo GOV.CO">
+      </div>
+      <img src="img/logo_co_footer.png" 
+           alt="Logo Colombia" class="logo-colombia">
+    </div>
+
+    <!-- Columna central -->
+    <div class="footer-column center">
+      <div class="info-dian">
+        <p><strong>Dirección de Impuestos y Aduanas Nacionales</strong></p>
+        <p>NIT: 800.197.268-4</p>
+        <p>Dirección: Sede principal | Bogotá, Nivel Central, carrera 8 N° 6C - 38 Edificio San Agustín</p>
+        <p>Código Postal: 111711</p>
+        <p>Horario Contact Center: Lunes a Viernes 8:00 a.m. a 7:00 p.m. y Sábados de 8:00 a.m. a 12:00 m.</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="footer-column">
+      <h4><i class="fas fa-phone"></i> Contacto</h4>
+      <p><strong>Contact Center</strong></p>
+      <p>57 601 489 9000 Línea de Contact Center atención de Impuestos</p>
+      <p>57 601 794 8880 Línea de Contact Center atención de Aduanas</p>
+      <p>57 601 794 8883 Línea Centro Nacional de Cobro</p>
+
+      <h4>Servicio en Línea de Contacto</h4>
+      <ul>
+        <li><a href="#">PQSR y Denuncias</a> | <a href="#">Puntos de contacto</a></li>
+        <li><a href="#">Política de Seguridad de la Información</a></li>
+        <li><a href="#">Política de privacidad y Términos de uso</a></li>
+        <li><a href="#">Política de tratamiento de datos personales</a></li>
+        <li><a href="#">Notificaciones Judiciales</a> | <a href="#">Mapa del sitio</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Font Awesome para íconos -->
+<script src="https://kit.fontawesome.com/4b37446228.js" crossorigin="anonymous"></script>
 </body>
 </html>
